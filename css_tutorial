@@ -1,0 +1,73 @@
+h3 {
+  color: skyblue;
+}
+.sub{
+  color: yellowgreen;
+}
+#ide {
+  color :royalblue;
+}
+
+/* for text aligning  */
+p {
+  text-align: center ;
+  /* other aligning options arec centre,right ,left */
+  color: red;
+}
+/* text decoration  */
+p{
+  
+  text-decoration: overline;
+  /* other properties OVERLINE ,UNDERLINE,LINETHROUGH */
+}
+/* font weight ,here we assign values where it boldens the font according to the value */
+h1{
+  color: blueviolet;
+  font-weight: 100;
+  /* other properties NORMAL ,BOLD,BOLDER,LIGHTER */
+}
+/* font family helps to choose the fonts */
+/* "*" or ASTERISK helps to select entire wesites content */
+/*  USE CONTROL+SPACE FOR OTHER ATTRIBUTES AVALIABLE */
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+/* BACKGROUND COLOR PROPERTY */
+
+main {
+  background-color: antiquewhite;
+  /* FOR WORKING OF BACKGROUND COLOR REMOVE THE BG IMAGE AND SEE YOUR RESULT */
+  /* BACKGROUND IMAGE */
+  background-image: url("https://files.realpython.com/media/How-to-Use-Python-Zip-with-Examples_Watermarked.3020903367b6.jpg");
+  background-position: center;
+  /* OTHER ATTRIBUTES RIGHT LEFT BOTTOM TOP */
+  /* BACKGROUND ATTACHMENT : FIXED THIS MAKES OUR BACKGROUNFD FIXED SO WE CAN SCROLL EVEN THEN OUR BACKROUND WIL REMAIN FIXED */
+  background-attachment: FIXED;
+  /* describes size of font  */
+  font-size: xx-large;
+}
+/* DISPLAY helps in isplaying as blok,inline, inline block or none */
+h3{
+  display : inline;
+  /* all h3 tags come one after another in 1 line */
+}
+h4{
+  display: block;
+}
+/* POSTION : FIXED makes our position fixed */
+nav {
+  left: 50%;
+  position: fixed;
+  /* by FIXED we always make our nav bar fixed  */
+  /* other position attributes are static ,relative,absolute sticky */
+}
+/* top ,right ,left ,bottom , z index tells us about our postion it dosent work on position : fixed */
+footer{
+  color : blue;
+  border: 2px solid black;
+  background-color: greenyellow;
+  margin: 1px;
+  /* margin is space above border while padding is space between border and content */
+  padding: 10px;
+}
+
