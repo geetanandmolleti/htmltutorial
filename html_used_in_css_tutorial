@@ -1,0 +1,121 @@
+<!-- for comments ctrl + ? or / -->
+<!-- for default atrribute code type "!"+ enter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title used here -->
+  <title>Document</title>
+
+
+
+  <!-- internal css linking  done here -->
+   <style>
+    h1 {
+      color: red;
+    }
+   </style>
+   <!-- external linking  -->
+    <link rel = "stylesheet" href = "tutorial.css"
+  </head>
+<body>
+  <!-- general format header followed by main followed by footer -->
+   <!-- header -->
+    <header>
+      <b>this is header</b>
+    <!-- navigator bar is present at top of page ,even if we scroll on this remains on top   -->
+    
+  <nav>
+     <p>trial.com</p>
+  </nav>    
+    </header>
+<!-- this is start of  main tag -->
+     <main>
+  <!-- heading -->
+   <h1>main heading </h1>
+   <!-- example of inline css -->
+    <h2 style = "color: green";>example of inline css</h2>
+   <!-- paragraph  and writing style-->
+    <p>this is for paragraph    <em>this is a writing pattern</em>    <strong>this is bold</strong>  
+      <!-- this is for how to leave or skip to next line -->
+      <br><i>this is italic </i></p>
+      <!-- anchor tags-->
+      <a href ="http://google.com">go to google</a>
+      <!-- this is for buttons -->
+        <a href ="http://google.com"><button>go to google button</button></a>
+      <!-- ordered lists -->
+       <ol> 
+        <h2>my favorite dragons</h2>
+        <li>vhegar</li>
+        <li>vermithor</li>
+        <li>balerion</li>
+       </ol>
+      
+       <!-- this is for forms -->
+        <br><br>
+        <form>
+        <!-- general box for input -->
+         <input>
+         <br><br>
+         <!-- general label -->
+          <label> name:</label><input><br><br>
+          <!-- for detailed and secure label form  -->
+           <label for  = "name">
+            username:
+           </label>
+           <input type = "text">
+
+           <label for  = "email">
+            mail
+           </label>
+           <input type = "email">
+           <br>
+
+
+           <!-- submit button  -->
+            <button type = "submit"> submit </button>
+
+        </form>
+        <!-- adding video by hitting -> share -> embed option -> copying that code  -->
+        <iframe width="560" height="315"
+         src="https://www.youtube.com/embed/lGKGDxwvrEQ?si=bJG7AXgSI-Qbqtg5" 
+         title="YouTube video player" 
+         frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" 
+         allowfullscreen></iframe>
+         <!-- adding image -->
+          <img src = "name.png"> 
+          </main>
+      <!-- section tag is a semantic tag used as  container in main part only can be used in main  -->
+       <section> 
+        <p>this is a section </p>
+       </section>
+       <!-- we can easily change wrt to requiremnt by accessing these coontainer ags (includes both semantic and unsemantic) -->
+      <!-- non semantic tags -> SPAN ,DIV (these are also container tags)-->
+       <div><p> <i> this is div tag usage</i></p></div>
+       <!-- unlike div which takes complete block in website span takes only a line -->
+        <span> this is span usage</span>
+        <h3>external linkage of css this is header 3</h3>
+        <h3>this is another header3</h3>
+        <h3> this is another header 3</h3>
+        <h4>block display this is header 4</h4>
+        <h4>this is another header4</h4>
+        <h4> this is another header 4</h4>
+        <!-- usage of class selector for css  -->
+         <button class = "sub" > buttoned</button>
+         <button>normal buttoned without class selector</button>
+        <!-- usage of id selector for css -->
+         <button id = "ide"> buttock</button>
+         <!-- for text aligning  -->
+          <p> this paragraph is fpr text aligning this may include maultiple words which have no meaning at all nlnediolkajc sdc nc n   ninijoj ij ijijojojioljsuhnksdjl</p>
+       
+<!-- end of main tag -->
+           <!-- footer -->
+          <footer><b>this is footer</b></footer>
+
+
+       
+</body>
+</html>
